@@ -10,3 +10,6 @@ fastapi = "*"
 
 [requires]
 python_version = "3.8"
+
+[packages.uvicorn]
+extras = [ "standard",]
