@@ -12,6 +12,7 @@ Written in **Python + FastAPI**, with an optional **Vue**-based Web interface.
     - File encryption
     - Incremental archives
     - Upload limits (per filesize/total)
+    - Auto-delete timer
 - Admin interface for group/user/file management/history review
 - Choose between an API-only version or a full Web interface (Vue-based)
 
