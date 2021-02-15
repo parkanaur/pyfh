@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyfh"
+version = "0.1.0"
+description = "Web file hosting in Python"
+authors = ["Daniil Kraynov <dan@parkanaur.net>"]
+license = "AGPL-3.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = {extras = ["all"], version = "^0.63.0"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
